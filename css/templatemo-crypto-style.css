@@ -645,7 +645,7 @@ body {
 .coin-icon.xrp { background: linear-gradient(135deg, #23292f, #000000); }
 .coin-icon.ada { background: linear-gradient(135deg, #0033ad, #002276); }
 .coin-icon.doge { background: linear-gradient(135deg, #c3a634, #ba9f33); }
-.coin-icon.dot { background: linear-gradient(135deg, #e6007a, #c40068); }
+.coin-icon.dot { background: linear-gradient(135deg); }
 .coin-icon.matic { background: linear-gradient(135deg, #8247e5, #6b3bc4); }
 
 /* ========================================
