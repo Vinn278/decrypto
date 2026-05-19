@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     function goLogin() {
-        window.location.href = "login.html";
+        window.location.href = "login/login.html";
     }
 
     function logout() {
