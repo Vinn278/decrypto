@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const user = localStorage.getItem("username");
-
+    if (user) {
+        document.getElementById("userInfoo").innerText =user;
     if (user) {
         document.getElementById("userInfo").innerText = "Halo, " + user;
 
