@@ -11,8 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const user = localStorage.getItem("username");
     if (user) {
-        document.getElementById("userInfoo").innerText = "Selamat datang, " + user + ", ini adalah gambaran umum portofoliomu";
-    if (user) {
         document.getElementById("userInfo").innerText = "Halo, " + user;
         document.getElementById("userInfoo").innerText = "Selamat datang, " + user + ", ini adalah gambaran umum portofoliomu";
 
