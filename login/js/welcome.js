@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (user) {
         document.getElementById("userInfo").innerText = "Halo, " + user;
         document.getElementById("userInfoo").innerText = "Selamat datang, " +  user + ", ini adalah gambaran umum portofoliomu";
-
+        document.getElementById("userInfooo").innerText = user;
         document.getElementById("authArea").innerHTML = `
             <button onclick="logout()" class="logout-btn">
                    <svg viewBox="0 0 24 24" fill="transparent" stroke="currentColor" stroke-width="2">
